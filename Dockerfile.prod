@@ -31,7 +31,7 @@ RUN bundle exec jekyll build --verbose
 
 #-------------------------------------------------
 
-FROM nginx:stable-alpine as webserver
+FROM nginx:mainline-alpine as webserver
 
 # Copy built site from build stage
 COPY --from=build /app/_site /usr/share/nginx/html
