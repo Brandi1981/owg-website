@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
-gem 'github-pages'
-gem 'jekyll-feed'
+gem 'github-pages', '>= 227'
+gem 'jekyll-feed', '>= 0.16.0'
